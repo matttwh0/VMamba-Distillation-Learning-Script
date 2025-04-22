@@ -1,5 +1,5 @@
 # VMamba-Distillation-Learning-Script
-Application of Distillation Learning method on VMamba model (small and tiny variant). 
+Application of Distillation Learning method on VMamba model (small and tiny variant) trained on potato disease dataset. 
 
 Heavily scaled down a lot of parameters such as batch size, image size, and epochs so that this model could run in google colab with limited memory, but heavily impacted accuracy. Vmamba small and tiny also were used for this purpose. Vmamba small served as the teacher model and Vmamba tiny was the student model. 
 
